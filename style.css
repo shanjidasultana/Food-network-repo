@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    font-family:'Poppins', sans-serif; 
+}
+section{
+    height: 300px;
+    padding-bottom: 150px;
+}
+h1{
+    font-size: 30px;
+    color: dimgray;
+}
+h2{
+    color: dimgray;
+}
+span{
+    color: palevioletred;
+}
+#top-banner{
+    background-image: url(images/);
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+.anchor-btn{
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(45deg,red, orange,tomato);
+    color: white;
+    font-weight: bold;
+}
+.anchor-btn a:hover {
+    background-color: gray;
+}
+.image{
+    width: 100%;
+    padding-top: 5%;
+}
+p{
+    text-align: center;
+ 
+}
+#About-section{
+    background-image: url(images/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+}
+.card{
+    box-sizing: border-box;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 0px;
+   
+}
+.card{
+    content:'';
+    
+    clear: both;
+}
+.Recipe-section{ 
+    box-sizing: border-box;
+    
+    text-align: center;
+} 
+
+.Recipe{
+    box-shadow: 1px 2px 15px black;
+    transition: 0.3s;
+    margin: 20px;
+    width: 30%;
+}
+.recipe-img{
+    width:90%;
+    margin:5%;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.recipe-desc{
+    margin-right: 5px;
+    
+}
+.follower{
+    width: 80%;
+    box-sizing: border-box;
+    box-shadow:2px 4px 8px grey ;
+    display: inline-flex;
+}
+.follower{
+    content:'';
+    
+    clear: both;
+}
+.follower h1{
+    margin: 20px;
+}
+.box{
+    width: 100%;
+}
+
+
+
+footer{
+    margin-top:60% ;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-content: center;
+   
+}
